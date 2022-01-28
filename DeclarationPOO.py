@@ -4,7 +4,7 @@ class Women:
     def __init__(self, name):
         self.name = name
 
-    def getAnswer(self, answer = str(input("Emma, ¿Quieres ser mi novia? "))):
+    def getAnswer(self, answer = str(input("Name, ¿Quieres ser mi novia? "))):
 
         return answer
 
