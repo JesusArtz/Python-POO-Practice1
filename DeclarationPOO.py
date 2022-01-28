@@ -22,10 +22,10 @@ class Men:
         elif answer == 'Si':
             return seleccionarMood[0]
 
-Jesus = Men("Jesus")
-Emma = Women("Emma")
+Name1 = Men("Name")
+Name2 = Women("Name")
 
 time.sleep(2)
 print("")
 print("")
-print(Jesus.getMood(Emma.getAnswer()))
+print(Name1.getMood(Name2.getAnswer()))
